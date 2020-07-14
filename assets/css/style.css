@@ -35,10 +35,6 @@ h5 {
     padding: 14px;
 }
 
-/* .nav-item {
-    text-align: center;
-} */
-
 nav{
     padding: 0px;
     background-color: #fff;
@@ -70,15 +66,6 @@ nav{
 #aboutme {
     float: left;
 }
-
-/* .sidebar {
-    margin-top: 30px;
-    margin-bottom: 50px;
-    max-width: 50%;
-    max-height: 50%;
-    display: inline-block;
-} */
-
 
 
 .icon-image {
