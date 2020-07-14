@@ -3,6 +3,18 @@ body {
     background-size: cover;
 }
 
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+}
+h5 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+}
+
 .navbar {
     list-style-type: none;
     margin: 0;
@@ -10,7 +22,7 @@ body {
     padding: 0px;
     border-bottom: #ccc solid 2px;
     width: 100%;
-    height: 80px;
+    height: 57px;
 }
 
 .display-6 {
@@ -19,9 +31,13 @@ body {
     color: #fff;
     text-align: center;
     margin-bottom: 0px;
-    height: 80px;
-    padding: 20px;
+    height: 55px;
+    padding: 14px;
 }
+
+/* .nav-item {
+    text-align: center;
+} */
 
 nav{
     padding: 0px;
@@ -43,26 +59,104 @@ nav{
 
 .footer-section {
     text-align: center;
+    width: 100%;
     position: fixed;
     bottom: 0;
+    height: 28px;
+    clear: both;
+    border-top: 5px #4aaaa5 solid;
 }
 
 #aboutme {
     float: left;
 }
 
-.sidebar {
+/* .sidebar {
     margin-top: 30px;
     margin-bottom: 50px;
     max-width: 50%;
     max-height: 50%;
     display: inline-block;
-}
+} */
 
-#icon {
-    border-radius: 15px;
+
+
+.icon-image {
+    width: 46px;
 }
 
 .nav-link {
     color: grey;
+}
+
+#social-media {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    padding: 10px;
+    margin: 0px;
+}
+
+.card-img-overlay {
+    padding: 0px;
+    margin-bottom: 15px;
+}
+
+.stretched-link {
+    position: absolute;
+    background: #4aaaa5;
+    width: 93.5%;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.card-image-top {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.form-box {
+    width: 75%;
+}
+
+h5 {
+    margin-top: 40px;
+}
+
+hr {
+    height: 1px;
+    color: grey;
+    background-color: grey;
+}
+
+@media screen and (max-width: 767px) {
+
+    nav {
+        margin: 0 auto;
+    }
+
+    .card {
+        width: 100%;
+        margin-left: 2px;
+    }
+    
+    #row-bottom {
+        margin-left: 95px;
+    }
+
+    #about {
+        margin-left: 2px;
+    }
 }

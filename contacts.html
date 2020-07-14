@@ -12,7 +12,7 @@
         <div class="navbar navbar-default">
                 <h1 class="display-6 navbar-brand col-xs-12 col-sm-3 col-xl-2">Tim Sanders</h1>
          <nav>
-          <ul class="nav text-center justify-content-end">
+          <ul class="nav text-center justify-content-end align-items-center">
               <li class="nav-item border-right">
                   <a href="index.html" class="nav-link">About</a>
               </li>
@@ -27,39 +27,42 @@
         </div>
         </div>
 
-    <div class="container">
-        <section id="contact">
+<div class="container">
+    <main class="col-md-8 col-sm-12 mt-5 p-3 mb-2 bg-light text-dark card rounded border border-grey">
+        <section class="card">
             <h2>Contact</h2>
         </section>
-    <form>
-        <section class="form group" id="contact form">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Jane Doe" required="required">
-        </section>
-        <section class="form group">
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="example.email.com" required="required">
-        </section>
-        <section class="form group">
-            <label for="message">Message</label>
-            <textarea type="text" id="message" name="message" required="required"></textarea>
-        </section>
-    </form>
-    <section class="col-md-3 col-md-offset-1 sidebar">
-        <h2>Connect With Me</h2>
-       <a href="#"><img src="./assets/css/Images/github-icon.png" alt="Github Icon">   </a>
-       <a href="#"><img src="./assets/css/Images/linkedin-icon.png" alt="Linkedin Icon">
+            <hr>
+<form>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Name</label>
+        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Jane Doe">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Message</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+    </div>
+  </form>
+</main>
+    <section class="col-md-9 col-md-offset-1 sidebar" id="social-media">
+        <h5>Connect With Me</h5>
+       <a href="#"><img src="./assets/css/Images/github-icon.png" alt="Github Icon" class="icon-image">   </a>
+       <a href="#"><img src="./assets/css/Images/linkedin-icon.png" alt="Linkedin Icon" class="icon-image">
        </a>
-       <a href="#"><img src="./assets/css/Images/stackoverflow-icon.png" alt="Stack OverFlow Icon">
+       <a href="#"><img src="./assets/css/Images/stackoverflow-icon.png" alt="Stack OverFlow Icon" class="icon-image">
        </a>
     </section>
     </div>
 
-<div class="container-fluid footer-section">
-    <div class="row text-center">
-        <p>&copy; Copyright 2020 Timothy Sanders</p>
-    </div>
-</div>
+    <footer class="footer-section">
+        <div class="bg-dark text-white justify-content-center">
+            <p>&copy; Copyright 2020 Timothy Sanders</p>
+        </div>
+    </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
