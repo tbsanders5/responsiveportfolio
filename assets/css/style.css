@@ -1,6 +1,9 @@
 body {
-    background-image: url(./Images/textured-background.jpg);
+    background-image: url(./Images/final-background.jpg);
+    object-fit: cover;    
     background-size: cover;
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
 }
 
 h1 {
@@ -8,11 +11,11 @@ h1 {
 }
 h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    color: #4aaaa5;
+    color: #000080;
 }
 h5 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    color: #4aaaa5;
+    color: #000080;
 }
 
 .navbar {
@@ -25,9 +28,13 @@ h5 {
     height: 57px;
 }
 
+.nav-link {
+    color: #000080 !important;
+}
+
 .display-6 {
     margin-left: 30px;
-    background-color: #4aaaa5;
+    background-color: #000080;
     color: #fff;
     text-align: center;
     margin-bottom: 0px;
@@ -60,12 +67,16 @@ nav{
     bottom: 0;
     height: 28px;
     clear: both;
-    border-top: 5px #4aaaa5 solid;
+    border-top: 5px #000080 solid;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+#resume {
+    color: #000080;
+}
+
 footer p {
-    color: grey;
+    color: #fff;
 }
 
 #aboutme {

@@ -1,6 +1,6 @@
 # My Portfolio #
 
-![alt text](./assets/css/Images/screenshot.png "Logo Title Text 1")
+![alt text](./assets/css/Images/screenshot.jpeg "Logo Title Text 1")
 
 ## Descrption ##
 
@@ -10,6 +10,7 @@ This repository was created to highlight some of my work, access my social media
 
 * [BootStrap 4.4](https://getbootstrap.com)
 * [Stack Overflow](https://stackoverflow.com/)
+* [FreePik](https://www.freepik.com/photos/background)
 * My Wonderful Study Group
 
 ### Explore ###
